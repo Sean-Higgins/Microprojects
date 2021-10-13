@@ -1,0 +1,18 @@
+Breadth First Graph Search Algorithm
+
+BreadthFirstSearch(startVertex, endVertex)
+Set found to FALSE
+Enque(myQueue, startVertex)
+WHILE(NOT IsEmpty(myQueue) AND NOT found)
+	Deque(myQueue, tempVertex)
+	IF (tempVertex equals endVertex)
+		Output endVertex
+		Set found to TRUE
+	ELSE IF (!!!tempVertex not visited!!!)
+		Output tempVertex
+		!!!Enque all unvisited vertices adjacent with tempVertex!!!
+		!!!Mark tempVertex as visited!!!
+IF (found)
+	Output "Path has been printed"
+ELSE
+	Output "Path does not exist"

@@ -1,0 +1,8 @@
+ASCII Value Calculator Pseudocode
+
+Output "What letter to you want to convert to ASCII? "
+Input letter
+
+Set letterCode(int) to letter(char)
+
+Output "The letter '" + letter + "' in ASCII is " + letterCode;

@@ -1,0 +1,8 @@
+Binary Search Tree Length Algorithm
+
+Length(tree)
+
+IF (tree is null)
+	RETURN 0
+ELSE
+	RETURN Length(left(tree)) + Length(right(tree)) + 1

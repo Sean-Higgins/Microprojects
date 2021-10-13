@@ -1,0 +1,14 @@
+Binary Search Tree Algorithm
+
+IsThere(tree, item)
+
+IF (tree is null)
+	RETURN FALSE
+ELSE
+	IF (item equals info(tree))
+		RETURN TRUE
+	ELSE
+		IF (item < info(tree))
+			IsThere(left(tree), item)
+		ELSE
+			IsThere(right(tree), item)

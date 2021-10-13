@@ -1,0 +1,11 @@
+Binary Search Tree Insertion Algorithm
+
+Insert(tree, item)
+
+IF (tree is null)
+	Put item in tree
+ELSE
+	IF (item < info(tree))
+		Insert(left(tree), item)
+	ELSE
+		Insert(right(tree), item)

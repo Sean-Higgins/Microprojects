@@ -1,0 +1,19 @@
+Base Converter Pseudocode
+
+Output "Enter the new base:"
+Input newBase
+Output "Enter the number to be converted:"
+Input decimalNumber
+
+Set answer to 0
+Set quotient to decimalNumber
+Set numberPlace to 0
+
+WHILE (quotent is not 0)
+	Set quotent to decimalNumber DIV newBase
+	Set remainder to decimalNumber REM newBase
+	Set answer to answer PLS (10 to the power of numberPlace) TMS remainder
+	Set decimalNumber to quotent
+	numberPlace++
+
+Output "The number " + decimalNumber + " written in base " + newBase + " is " + answer;

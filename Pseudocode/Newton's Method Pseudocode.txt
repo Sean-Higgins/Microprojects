@@ -1,0 +1,21 @@
+Newton's Method Algorithm Pseudocode
+
+Output "Please enter the function you want to approximate the critical values of: f(x) ="
+Input function
+
+Output "Please enter your initial estimate of x that is close to the function's critical value:"
+Input x1
+
+Output "And finally, please enter the ammount you want your final two estimates to differ by:"
+Input valueDifference
+
+Set iterations to 0
+
+approximationFunction(function, x1, valueDifference)
+{
+	
+	
+	newApprox = x1 - (function(x1)/derivative(function(x1)))
+	
+	IF (
+}

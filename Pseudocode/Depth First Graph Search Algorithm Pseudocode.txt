@@ -1,0 +1,18 @@
+Depth-First Graph Search Algorithm
+
+DepthFirstSearch(startVertex, endVertex)
+Set found to FALSE
+Push(myStack, startVertex)
+WHILE (NOT isEmpty(myStack) AND NOT FOUND)
+	Pop(myStack, tempVertex)
+	IF (tempVertex equals endVertex)
+		Output endVertex
+		Set found to TRUE
+	ELSE IF (!!!tempVertex not visited!!!)
+		Output tempVertex
+		!!!Push all unvisited vertices adjacent with tempVertex!!!
+		!!!Mark tempVertex as visited!!!	//A vertex is marked as visited once all its
+IF (found)						//adjacent vertices have been pushed onto the stack.
+	Output "Path has been printed"
+ELSE
+	Output "Path does not exist"

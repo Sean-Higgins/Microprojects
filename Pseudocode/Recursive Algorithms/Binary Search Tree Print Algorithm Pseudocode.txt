@@ -1,0 +1,8 @@
+Binary Search Tree Print Algorithm
+
+Print(tree)
+
+IF (tree is NOT null)
+	Print(left(tree))	//Recursive call R1
+	Write info(tree)
+	Print(right(tree))	//Recursive call R2

@@ -1,0 +1,16 @@
+Newton's Method for Approximating the Zeros of a Function
+
+Let f(c) = 0, where f is differentiable on an open interval containing c.
+Then, to approximate c, use the following steps.
+
+1. Make an initial estimate x(1) that is close to c. (A graph is helpful for this step.)
+
+2. Determine a new approximation
+
+	x(n+1) = x(n) - [f(x(n))/f'(x(n))]
+
+3. If |x(n) - x(n+1)| is within the desired accuracy, let x(n+1) serve as
+   the final approximation. Otherwise, return to Step 2 and calculate a new
+   approximation.
+
+Each successive application of this procedure is called an iteration.
