@@ -1,0 +1,37 @@
+The Collatz Conjecture:
+	 Consider the following operation on an arbitrary positive integer(n):
+		- If the number is even, divide it by two.
+		- If the number is odd, triple it and add one.
+
+	The function in terms of n [f(n)] is as follows:
+
+			{ n/2	if n % 2 = 0
+	f(n) =	{
+			{ 3n+1	if n % 2 = 1.
+
+	Now, form a sequence by performing this opperation repeatedly, beginning
+	with any positive integer, and taking the result at each step as the input
+	at the next.
+
+	In notation:
+
+				{ n			for i = 0
+	a(sub i) =	{
+				{ f(a(sub i-1))	for i > 0
+
+	(that is: a(sub i) is the value of f applied to n recursively i times;
+		a(sub i) = f^i(n)).
+
+	The Collatz Conjecture is as follows: This process will eventually reach
+	the number 1, regardless of which positive integer is chosen initially.
+
+	The smallest i such that a(sub i) = 1 is called the Total Stopping Time of n. The
+	conjecture asserts that every n has a well-defined total stopping time. If, for
+	some n, such an i doesn't exist, we say that n has infinite total stopping time
+	and the conjecture is false.
+
+	If the conjecture is false, it can only be because there is some starting number
+	which gives rise to a sequence that does not contain 1. Such a sequence might enter
+	a repeating cycle that excludes 1, or increase without bound.
+
+	No such sequence has been found.
