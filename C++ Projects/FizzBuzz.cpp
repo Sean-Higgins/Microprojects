@@ -25,8 +25,7 @@ int main() {
 
 	cout << "If a number is divisible by 3, print out the word \"Fizz\"." << endl;
 	cout << "If a number is divisible by 5, print out the word \"Buzz\"." << endl;
-	cout << "If a number is divisible by both 3 and 5 (i.e., divisible by 15), print out both" << endl;
-	cout << "	Fizz and Buss (i.e., FizzBuzz)." << endl;
+	cout << "If a number is divisible by both 3 and 5 (i.e., divisible by 15), print out both Fizz and Buss (i.e., FizzBuzz)." << endl;
 	cout << "If a number is not divisible by either 3 or 5, then just print the number." << endl << endl;
 
 	fizzBuzz();
